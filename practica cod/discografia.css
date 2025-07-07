@@ -1,0 +1,106 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  color: darkred;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#tx {
+  font-size: 25px;
+  color: darkred;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+nav a {
+  color: darkred;
+  margin: 0 15px;
+  text-decoration: underline;
+}
+nav a:hover {
+  color: white;
+}
+
+#cb {
+  padding: 15px;
+  border-bottom: 2px solid darkred;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 100;
+}
+
+section {
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid darkred;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 900px;
+  background-color: black;
+}
+section h2 {
+  color: darkred;
+}
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul {
+  font-size: 18px;
+  padding-left: 25px;
+}
+li {
+  margin: 8px 0;
+}
+li:hover {
+  color: darkred;
+}
+
+.loving {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1000px;
+}
+.loving h1 {
+  color: darkred;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.loving p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+  padding: 10px;
+  border: 3px solid darkred;
+  border-radius: 5px;
+}
+.loving img {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  color: darkred;
+  margin-top: 40px;
+  padding: 15px;
+  border-top: 2px solid darkred;
+}
